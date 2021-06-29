@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+
+body {
+  position: relative; }
+
+.tokyo {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex; }
+  .tokyo__1 {
+    width: 25%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    @media only screen and (max-width: 480px) and (min-width: 300px) {
+      .tokyo__1 {
+        display: none; } }
+    @media only screen and (max-width: 754px) and (min-width: 481px) {
+      .tokyo__1 {
+        width: 30%; } }
+    .tokyo__1--heading {
+      font-family: Yellowtail , sans-serif;
+      margin-bottom: 2rem;
+      font-size: 3rem; }
+    .tokyo__1--list {
+      line-height: 3rem; }
+      .tokyo__1--list--mywork {
+        font-size: 1.5rem;
+        color: black; }
+      .tokyo__1--list--career_goals {
+        font-size: 1.5rem;
+        color: black; }
+      .tokyo__1--list--resume {
+        font-size: 1.5rem;
+        color: black; }
+      .tokyo__1--list--about {
+        font-size: 1.5rem;
+        color: black; }
+  .tokyo__2 {
+    width: 75%;
+    background-color: #f1ebeb;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    justify-content: center; }
+    @media only screen and (max-width: 480px) and (min-width: 300px) {
+      .tokyo__2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%; } }
+    @media only screen and (max-width: 754px) and (min-width: 481px) {
+      .tokyo__2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%; } }
+    @media only screen and (max-width: 1000px) and (min-width: 755px) {
+      .tokyo__2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; } }
+    @media only screen and (max-width: 1200px) and (min-width: 1001px) {
+      .tokyo__2 {
+        padding: 2rem; } }
+    .tokyo__2--1 {
+      width: 20rem;
+      height: 20rem;
+      background-repeat: no-repeat;
+      background-image: url(../../img/image-1.jpeg);
+      background-position: -1rem -1rem;
+      background-size: 22rem 23rem;
+      animation: borderanimation 8s ease-in-out infinite 1s; }
+      @media only screen and (max-width: 480px) and (min-width: 300px) {
+        .tokyo__2--1 {
+          width: 16rem;
+          height: 16rem;
+          background-size: 18rem 18rem; } }
+      @media only screen and (max-width: 1200px) and (min-width: 1001px) {
+        .tokyo__2--1 {
+          width: 26rem;
+          height: 18rem;
+          background-position: -2rem -1rem;
+          background-size: 20rem 21rem; } }
+    .tokyo__2--2 {
+      margin-left: 4rem; }
+      @media only screen and (max-width: 480px) and (min-width: 300px) {
+        .tokyo__2--2 {
+          margin-left: 0rem; } }
+      @media only screen and (max-width: 754px) and (min-width: 481px) {
+        .tokyo__2--2 {
+          margin: 2rem; } }
+      @media only screen and (max-width: 1000px) and (min-width: 755px) {
+        .tokyo__2--2 {
+          margin: 2rem; } }
+      .tokyo__2--2 h1 {
+        font-size: 4rem;
+        letter-spacing: 5px;
+        text-align: center;
+        font-family: 'Big Shoulders Stencil Display', cursive; }
+        @media only screen and (max-width: 480px) and (min-width: 300px) {
+          .tokyo__2--2 h1 {
+            font-size: 2rem;
+            text-align: center;
+            margin-top: 2rem;
+            margin-bottom: 1rem; } }
+        @media only screen and (max-width: 754px) and (min-width: 481px) {
+          .tokyo__2--2 h1 {
+            text-align: center;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 2rem; } }
+        @media only screen and (max-width: 1000px) and (min-width: 755px) {
+          .tokyo__2--2 h1 {
+            text-align: center;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 2rem; } }
+        @media only screen and (max-width: 1200px) and (min-width: 1001px) {
+          .tokyo__2--2 h1 {
+            text-align: center; } }
+      .tokyo__2--2 p {
+        font-size: 1.2rem;
+        color: gray;
+        text-align: center; }
+      .tokyo__2--2--socialicons {
+        font-size: 2rem;
+        text-align: center;
+        margin: 1rem; }
+        .tokyo__2--2--socialicons i {
+          margin-right: 1rem; }
+      .tokyo__2--2--btn {
+        padding: 0.9rem 2rem;
+        background-color: #efa02b;
+        width: fit-content;
+        border-radius: 15px;
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin: auto; }
+        @media only screen and (max-width: 1504px) and (min-width: 481px) {
+          .tokyo__2--2--btn {
+            display: none; } }
+      .tokyo__2--2--btn:hover {
+        background-color: #da6817; }
+
+@keyframes borderanimation {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%; }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%; }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%; } }

@@ -74,7 +74,7 @@ body {
       width: 20rem;
       height: 20rem;
       background-repeat: no-repeat;
-      background-image: url(../img/image-1.JPEG);
+      background-image: url(img/image-1.JPEG);
       background-position: -1rem -1rem;
       background-size: 22rem 23rem;
       animation: borderanimation 8s ease-in-out infinite 1s; }
